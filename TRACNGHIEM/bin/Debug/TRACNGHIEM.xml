@@ -6,13 +6,25 @@ TRACNGHIEM
 </name>
 </assembly>
 <members>
-<member name="T:TRACNGHIEM.DS.MonhocDataTable">
+<member name="T:TRACNGHIEM.DS.GiaovienDataTable">
 	<summary>
 Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TRACNGHIEM.DS.MonhocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TRACNGHIEM.DS.GiaovienRow">
+	<summary>
+Represents strongly named DataRow class.
 </summary>
 </member><member name="T:TRACNGHIEM.DS.MonhocRow">
 	<summary>
 Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TRACNGHIEM.DS.GiaovienRowChangeEvent">
+	<summary>
+Row event argument class
 </summary>
 </member><member name="T:TRACNGHIEM.DS.MonhocRowChangeEvent">
 	<summary>
@@ -21,6 +33,10 @@ Row event argument class
 </member><member name="T:TRACNGHIEM.DS">
 	<summary>
 Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TRACNGHIEM.DSTableAdapters.GiaovienTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 </members>

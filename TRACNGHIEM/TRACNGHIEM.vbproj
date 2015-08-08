@@ -71,6 +71,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frmGiaovien.Designer.vb">
+      <DependentUpon>frmGiaovien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiaovien.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMonhoc.Designer.vb">
       <DependentUpon>frmMonhoc.vb</DependentUpon>
     </Compile>
@@ -101,6 +107,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmGiaovien.resx">
+      <DependentUpon>frmGiaovien.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMonhoc.resx">
       <DependentUpon>frmMonhoc.vb</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +124,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="DS.xsc">
       <DependentUpon>DS.xsd</DependentUpon>
     </None>
