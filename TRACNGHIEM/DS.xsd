@@ -90,14 +90,14 @@ SELECT MAGV, HO, TEN, SODTLL, DIACHI FROM Giaovien WHERE (MAGV = @MAGV)</Command
         <xs:element name="Monhoc" msprop:Generator_UserTableName="Monhoc" msprop:Generator_RowDeletedName="MonhocRowDeleted" msprop:Generator_RowChangedName="MonhocRowChanged" msprop:Generator_RowClassName="MonhocRow" msprop:Generator_RowChangingName="MonhocRowChanging" msprop:Generator_RowEvArgName="MonhocRowChangeEvent" msprop:Generator_RowEvHandlerName="MonhocRowChangeEventHandler" msprop:Generator_TableClassName="MonhocDataTable" msprop:Generator_TableVarName="tableMonhoc" msprop:Generator_RowDeletingName="MonhocRowDeleting" msprop:Generator_TablePropName="Monhoc">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="MAMH" msprop:Generator_UserColumnName="MAMH" msprop:Generator_ColumnVarNameInTable="columnMAMH" msprop:Generator_ColumnPropNameInRow="MAMH" msprop:Generator_ColumnPropNameInTable="MAMHColumn">
+              <xs:element name="MAMH" msprop:Generator_UserColumnName="MAMH" msprop:Generator_ColumnPropNameInRow="MAMH" msprop:Generator_ColumnVarNameInTable="columnMAMH" msprop:Generator_ColumnPropNameInTable="MAMHColumn">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="5" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="TENMH" msprop:Generator_UserColumnName="TENMH" msprop:Generator_ColumnVarNameInTable="columnTENMH" msprop:Generator_ColumnPropNameInRow="TENMH" msprop:Generator_ColumnPropNameInTable="TENMHColumn">
+              <xs:element name="TENMH" msprop:Generator_UserColumnName="TENMH" msprop:Generator_ColumnPropNameInRow="TENMH" msprop:Generator_ColumnVarNameInTable="columnTENMH" msprop:Generator_ColumnPropNameInTable="TENMHColumn">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="40" />
@@ -107,38 +107,38 @@ SELECT MAGV, HO, TEN, SODTLL, DIACHI FROM Giaovien WHERE (MAGV = @MAGV)</Command
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Giaovien" msprop:Generator_UserTableName="Giaovien" msprop:Generator_RowDeletedName="GiaovienRowDeleted" msprop:Generator_TableClassName="GiaovienDataTable" msprop:Generator_RowChangedName="GiaovienRowChanged" msprop:Generator_RowClassName="GiaovienRow" msprop:Generator_RowChangingName="GiaovienRowChanging" msprop:Generator_RowEvArgName="GiaovienRowChangeEvent" msprop:Generator_RowEvHandlerName="GiaovienRowChangeEventHandler" msprop:Generator_TablePropName="Giaovien" msprop:Generator_TableVarName="tableGiaovien" msprop:Generator_RowDeletingName="GiaovienRowDeleting">
+        <xs:element name="Giaovien" msprop:Generator_UserTableName="Giaovien" msprop:Generator_RowDeletedName="GiaovienRowDeleted" msprop:Generator_RowChangedName="GiaovienRowChanged" msprop:Generator_RowClassName="GiaovienRow" msprop:Generator_RowChangingName="GiaovienRowChanging" msprop:Generator_RowEvArgName="GiaovienRowChangeEvent" msprop:Generator_RowEvHandlerName="GiaovienRowChangeEventHandler" msprop:Generator_TableClassName="GiaovienDataTable" msprop:Generator_TableVarName="tableGiaovien" msprop:Generator_RowDeletingName="GiaovienRowDeleting" msprop:Generator_TablePropName="Giaovien">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="MAGV" msprop:Generator_UserColumnName="MAGV" msprop:Generator_ColumnPropNameInRow="MAGV" msprop:Generator_ColumnVarNameInTable="columnMAGV" msprop:Generator_ColumnPropNameInTable="MAGVColumn">
+              <xs:element name="MAGV" msprop:Generator_UserColumnName="MAGV" msprop:Generator_ColumnVarNameInTable="columnMAGV" msprop:Generator_ColumnPropNameInRow="MAGV" msprop:Generator_ColumnPropNameInTable="MAGVColumn">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="8" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="HO" msprop:Generator_UserColumnName="HO" msprop:Generator_ColumnPropNameInRow="HO" msprop:Generator_ColumnVarNameInTable="columnHO" msprop:Generator_ColumnPropNameInTable="HOColumn" minOccurs="0">
+              <xs:element name="HO" msprop:Generator_UserColumnName="HO" msprop:Generator_ColumnVarNameInTable="columnHO" msprop:Generator_ColumnPropNameInRow="HO" msprop:Generator_ColumnPropNameInTable="HOColumn" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="40" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="TEN" msprop:Generator_UserColumnName="TEN" msprop:Generator_ColumnPropNameInRow="TEN" msprop:Generator_ColumnVarNameInTable="columnTEN" msprop:Generator_ColumnPropNameInTable="TENColumn" minOccurs="0">
+              <xs:element name="TEN" msprop:Generator_UserColumnName="TEN" msprop:Generator_ColumnVarNameInTable="columnTEN" msprop:Generator_ColumnPropNameInRow="TEN" msprop:Generator_ColumnPropNameInTable="TENColumn" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="10" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="SODTLL" msprop:Generator_UserColumnName="SODTLL" msprop:Generator_ColumnPropNameInRow="SODTLL" msprop:Generator_ColumnVarNameInTable="columnSODTLL" msprop:Generator_ColumnPropNameInTable="SODTLLColumn" minOccurs="0">
+              <xs:element name="SODTLL" msprop:Generator_UserColumnName="SODTLL" msprop:Generator_ColumnVarNameInTable="columnSODTLL" msprop:Generator_ColumnPropNameInRow="SODTLL" msprop:Generator_ColumnPropNameInTable="SODTLLColumn" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="11" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="DIACHI" msprop:Generator_UserColumnName="DIACHI" msprop:Generator_ColumnPropNameInRow="DIACHI" msprop:Generator_ColumnVarNameInTable="columnDIACHI" msprop:Generator_ColumnPropNameInTable="DIACHIColumn" minOccurs="0">
+              <xs:element name="DIACHI" msprop:Generator_UserColumnName="DIACHI" msprop:Generator_ColumnVarNameInTable="columnDIACHI" msprop:Generator_ColumnPropNameInRow="DIACHI" msprop:Generator_ColumnPropNameInTable="DIACHIColumn" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
