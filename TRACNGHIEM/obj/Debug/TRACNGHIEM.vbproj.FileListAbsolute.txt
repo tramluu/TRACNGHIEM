@@ -1,0 +1,14 @@
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\bin\Debug\TRACNGHIEM.exe
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\bin\Debug\TRACNGHIEM.pdb
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\bin\Debug\TRACNGHIEM.xml
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.frmMonhoc.resources
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.MainForm.resources
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.Resources.resources
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.vbproj.GenerateResource.Cache
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.exe
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.xml
+C:\Users\W8-64\AppData\Local\Temporary Projects\TRACNGHIEM\obj\Debug\TRACNGHIEM.pdb
+E:\Hoc tap\TIN HOC QUAN LY\TRACNGHIEM\TRACNGHIEM\obj\Debug\TRACNGHIEM.exe
+E:\Hoc tap\TIN HOC QUAN LY\TRACNGHIEM\TRACNGHIEM\obj\Debug\TRACNGHIEM.xml
+E:\Hoc tap\TIN HOC QUAN LY\TRACNGHIEM\TRACNGHIEM\obj\Debug\TRACNGHIEM.pdb
